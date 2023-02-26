@@ -1,0 +1,25 @@
+/Users/brijeshbv/Documents/study-wo-backup/mbrl-smdp-ode/run.py
+Experiment: 54475, Model: latent-ode, Environment: HalfCheetah_Simulator, Seed: 1
+gamma: 0.99, latent_dim: 400, lr: 0.001, batch_size: 128, eps_decay: 0.0, max steps: 1000, latent_policy: False, obs_normal: True
+CUDA is available: False
+**************************************************
+********** RANDOM rollout **********
+Episode 1 | total env steps = 1000 | env steps = 1000 | reward = -235.899323
+Episode 2 | total env steps = 2000 | env steps = 1000 | reward = -369.511169
+Episode 3 | total env steps = 3000 | env steps = 1000 | reward = -261.440826
+Episode 4 | total env steps = 4000 | env steps = 1000 | reward = -231.822693
+Episode 5 | total env steps = 5000 | env steps = 1000 | reward = -236.666412
+Episode 6 | total env steps = 6000 | env steps = 1000 | reward = -310.244965
+Episode 7 | total env steps = 7000 | env steps = 1000 | reward = -262.024536
+Episode 8 | total env steps = 8000 | env steps = 1000 | reward = -208.907837
+Episode 9 | total env steps = 9000 | env steps = 1000 | reward = -335.405792
+Episode 10 | total env steps = 10000 | env steps = 1000 | reward = -139.732895
+Episode 11 | total env steps = 11000 | env steps = 1000 | reward = -177.126556
+Episode 12 | total env steps = 12000 | env steps = 1000 | reward = -246.991211
+Episode 13 | total env steps = 13000 | env steps = 1000 | reward = -250.908676
+Episode 14 | total env steps = 14000 | env steps = 1000 | reward = -269.816406
+Episode 15 | total env steps = 15000 | env steps = 1000 | reward = -206.440781
+********** Policy evaluation **********
+RANDOM Epoch 0 | total env steps = 15000 | avg reward over last epoch = -249.529339 | eval reward = -12.417435 | time = 1.717747 s
+********** Training the environment model **********
+Epoch 1 | training MSE = 1.084953 | test MSE = 1.035466 | training dt loss = 2.203541 | test dt loss = 2.198570 | time = 19.837339 s

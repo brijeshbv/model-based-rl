@@ -1,0 +1,6 @@
+/Users/brijeshbv/Documents/study-wo-backup/mbrl-smdp-ode/run.py
+Experiment: 50729, Model: latent-ode, Environment: HalfCheetah_Simulator, Seed: 1
+gamma: 0.99, latent_dim: 400, lr: 0.001, batch_size: 128, eps_decay: 0.0, max steps: 1000, latent_policy: False, obs_normal: True
+CUDA is available: False
+**************************************************
+********** RANDOM rollout **********

@@ -1,0 +1,121 @@
+/Users/brijeshbv/Documents/study-wo-backup/mbrl-smdp-ode/run.py
+Experiment: 75847, Model: latent-ode, Environment: HalfCheetah_Simulator, Seed: 1
+gamma: 0.99, latent_dim: 400, lr: 0.001, batch_size: 128, eps_decay: 0.0, max steps: 1000, latent_policy: False, obs_normal: True
+CUDA is available: False
+**************************************************
+********** RANDOM rollout **********
+Episode 1 | total env steps = 1000 | env steps = 1000 | reward = -235.899323
+Episode 2 | total env steps = 2000 | env steps = 1000 | reward = -369.511169
+Episode 3 | total env steps = 3000 | env steps = 1000 | reward = -261.440826
+Episode 4 | total env steps = 4000 | env steps = 1000 | reward = -231.822693
+Episode 5 | total env steps = 5000 | env steps = 1000 | reward = -236.666412
+Episode 6 | total env steps = 6000 | env steps = 1000 | reward = -310.244965
+Episode 7 | total env steps = 7000 | env steps = 1000 | reward = -262.024536
+Episode 8 | total env steps = 8000 | env steps = 1000 | reward = -208.907837
+Episode 9 | total env steps = 9000 | env steps = 1000 | reward = -335.405792
+Episode 10 | total env steps = 10000 | env steps = 1000 | reward = -139.732895
+Episode 11 | total env steps = 11000 | env steps = 1000 | reward = -177.126556
+Episode 12 | total env steps = 12000 | env steps = 1000 | reward = -246.991211
+Episode 13 | total env steps = 13000 | env steps = 1000 | reward = -250.908676
+Episode 14 | total env steps = 14000 | env steps = 1000 | reward = -269.816406
+Episode 15 | total env steps = 15000 | env steps = 1000 | reward = -206.440781
+********** Policy evaluation **********
+RANDOM Epoch 0 | total env steps = 15000 | avg reward over last epoch = -249.529339 | eval reward = -12.417435 | time = 5.289950 s
+********** Training the environment model **********
+Epoch 1 | training MSE = 1.084953 | test MSE = 1.035466 | training dt loss = 2.203541 | test dt loss = 2.198570 | time = 19.855157 s
+Epoch 2 | training MSE = 0.634629 | test MSE = 0.723011 | training dt loss = 2.183069 | test dt loss = 2.178971 | time = 26.398880 s
+Epoch 3 | training MSE = 0.422433 | test MSE = 0.536295 | training dt loss = 2.175268 | test dt loss = 2.178829 | time = 23.763819 s
+Epoch 4 | training MSE = 0.314797 | test MSE = 0.433940 | training dt loss = 2.171262 | test dt loss = 2.180482 | time = 22.801857 s
+Epoch 5 | training MSE = 0.263022 | test MSE = 0.382133 | training dt loss = 2.170717 | test dt loss = 2.178533 | time = 22.837748 s
+Epoch 6 | training MSE = 0.239498 | test MSE = 0.360990 | training dt loss = 2.169189 | test dt loss = 2.177138 | time = 23.211795 s
+Epoch 7 | training MSE = 0.226372 | test MSE = 0.362802 | training dt loss = 2.169609 | test dt loss = 2.176088 | time = 22.905015 s
+Epoch 8 | training MSE = 0.217504 | test MSE = 0.343299 | training dt loss = 2.169203 | test dt loss = 2.176050 | time = 23.357961 s
+Epoch 9 | training MSE = 0.212001 | test MSE = 0.329226 | training dt loss = 2.169209 | test dt loss = 2.174748 | time = 23.244091 s
+Epoch 10 | training MSE = 0.207221 | test MSE = 0.333998 | training dt loss = 2.169123 | test dt loss = 2.174794 | time = 24.999454 s
+Epoch 11 | training MSE = 0.203078 | test MSE = 0.327733 | training dt loss = 2.169002 | test dt loss = 2.174376 | time = 23.436303 s
+Epoch 12 | training MSE = 0.200792 | test MSE = 0.326594 | training dt loss = 2.169404 | test dt loss = 2.174563 | time = 25.053892 s
+Epoch 13 | training MSE = 0.198223 | test MSE = 0.322369 | training dt loss = 2.169410 | test dt loss = 2.175202 | time = 23.886305 s
+Epoch 14 | training MSE = 0.195173 | test MSE = 0.321287 | training dt loss = 2.169432 | test dt loss = 2.174067 | time = 23.510931 s
+Epoch 15 | training MSE = 0.190224 | test MSE = 0.310901 | training dt loss = 2.169191 | test dt loss = 2.173777 | time = 23.605614 s
+Epoch 16 | training MSE = 0.178687 | test MSE = 0.307803 | training dt loss = 2.168637 | test dt loss = 2.173511 | time = 25.629685 s
+Epoch 17 | training MSE = 0.168804 | test MSE = 0.312676 | training dt loss = 2.168172 | test dt loss = 2.173659 | time = 26.493887 s
+Epoch 18 | training MSE = 0.160079 | test MSE = 0.300245 | training dt loss = 2.168411 | test dt loss = 2.173001 | time = 29.676476 s
+Epoch 19 | training MSE = 0.151010 | test MSE = 0.283942 | training dt loss = 2.167798 | test dt loss = 2.172562 | time = 26.466374 s
+Epoch 20 | training MSE = 0.144104 | test MSE = 0.281711 | training dt loss = 2.167480 | test dt loss = 2.172493 | time = 24.732933 s
+Epoch 21 | training MSE = 0.140248 | test MSE = 0.274740 | training dt loss = 2.168281 | test dt loss = 2.172708 | time = 24.510207 s
+Epoch 22 | training MSE = 0.133784 | test MSE = 0.291261 | training dt loss = 2.168733 | test dt loss = 2.172491 | time = 25.760317 s
+Epoch 23 | training MSE = 0.130014 | test MSE = 0.268506 | training dt loss = 2.167954 | test dt loss = 2.172530 | time = 23.997136 s
+Epoch 24 | training MSE = 0.126349 | test MSE = 0.263935 | training dt loss = 2.168159 | test dt loss = 2.172512 | time = 24.884640 s
+Epoch 25 | training MSE = 0.123923 | test MSE = 0.294996 | training dt loss = 2.168381 | test dt loss = 2.172297 | time = 25.965785 s
+Epoch 26 | training MSE = 0.119168 | test MSE = 0.259330 | training dt loss = 2.168141 | test dt loss = 2.172491 | time = 24.489574 s
+Epoch 27 | training MSE = 0.115884 | test MSE = 0.260048 | training dt loss = 2.168419 | test dt loss = 2.172475 | time = 26.021783 s
+Epoch 28 | training MSE = 0.114472 | test MSE = 0.261177 | training dt loss = 2.168107 | test dt loss = 2.171673 | time = 24.404347 s
+Epoch 29 | training MSE = 0.113245 | test MSE = 0.281573 | training dt loss = 2.168526 | test dt loss = 2.171847 | time = 25.857833 s
+Epoch 30 | training MSE = 0.111293 | test MSE = 0.256254 | training dt loss = 2.168274 | test dt loss = 2.172289 | time = 24.469540 s
+Epoch 31 | training MSE = 0.108926 | test MSE = 0.247784 | training dt loss = 2.168058 | test dt loss = 2.171350 | time = 25.215352 s
+Epoch 32 | training MSE = 0.106448 | test MSE = 0.250109 | training dt loss = 2.168242 | test dt loss = 2.171808 | time = 25.121054 s
+Epoch 33 | training MSE = 0.105077 | test MSE = 0.242079 | training dt loss = 2.168450 | test dt loss = 2.172020 | time = 24.491248 s
+Epoch 34 | training MSE = 0.101031 | test MSE = 0.234338 | training dt loss = 2.168523 | test dt loss = 2.171481 | time = 24.604189 s
+Epoch 35 | training MSE = 0.100544 | test MSE = 0.242972 | training dt loss = 2.168643 | test dt loss = 2.171389 | time = 25.914698 s
+Epoch 36 | training MSE = 0.100613 | test MSE = 0.230645 | training dt loss = 2.168164 | test dt loss = 2.171987 | time = 24.689814 s
+Epoch 37 | training MSE = 0.099061 | test MSE = 0.253804 | training dt loss = 2.168561 | test dt loss = 2.171176 | time = 26.046230 s
+Epoch 38 | training MSE = 0.096904 | test MSE = 0.233753 | training dt loss = 2.168569 | test dt loss = 2.171705 | time = 25.263196 s
+Epoch 39 | training MSE = 0.095600 | test MSE = 0.227481 | training dt loss = 2.168580 | test dt loss = 2.170869 | time = 25.577112 s
+Epoch 40 | training MSE = 0.094784 | test MSE = 0.240274 | training dt loss = 2.168818 | test dt loss = 2.171321 | time = 23.481882 s
+Epoch 41 | training MSE = 0.093855 | test MSE = 0.228655 | training dt loss = 2.168381 | test dt loss = 2.171506 | time = 24.646890 s
+Epoch 42 | training MSE = 0.092803 | test MSE = 0.231853 | training dt loss = 2.168406 | test dt loss = 2.171378 | time = 22.545423 s
+Epoch 43 | training MSE = 0.090874 | test MSE = 0.210098 | training dt loss = 2.168200 | test dt loss = 2.171133 | time = 23.164325 s
+Epoch 44 | training MSE = 0.088966 | test MSE = 0.218878 | training dt loss = 2.168808 | test dt loss = 2.171274 | time = 24.267229 s
+Epoch 45 | training MSE = 0.090359 | test MSE = 0.229779 | training dt loss = 2.168527 | test dt loss = 2.171488 | time = 22.621444 s
+Epoch 46 | training MSE = 0.089030 | test MSE = 0.202530 | training dt loss = 2.168533 | test dt loss = 2.171053 | time = 22.233562 s
+Epoch 47 | training MSE = 0.087850 | test MSE = 0.221343 | training dt loss = 2.167739 | test dt loss = 2.170691 | time = 23.997411 s
+Epoch 48 | training MSE = 0.088403 | test MSE = 0.231698 | training dt loss = 2.168093 | test dt loss = 2.171570 | time = 22.812269 s
+Epoch 49 | training MSE = 0.089591 | test MSE = 0.219030 | training dt loss = 2.168007 | test dt loss = 2.170772 | time = 24.209196 s
+Epoch 50 | training MSE = 0.087750 | test MSE = 0.235132 | training dt loss = 2.168433 | test dt loss = 2.170656 | time = 22.807843 s
+Epoch 51 | training MSE = 0.087430 | test MSE = 0.228013 | training dt loss = 2.168224 | test dt loss = 2.171024 | time = 25.137002 s
+Epoch 52 | training MSE = 0.085744 | test MSE = 0.214095 | training dt loss = 2.168644 | test dt loss = 2.171054 | time = 23.187422 s
+Epoch 53 | training MSE = 0.085537 | test MSE = 0.210605 | training dt loss = 2.168329 | test dt loss = 2.170844 | time = 27.139561 s
+Epoch 54 | training MSE = 0.084958 | test MSE = 0.209816 | training dt loss = 2.168638 | test dt loss = 2.171072 | time = 26.505556 s
+Epoch 55 | training MSE = 0.083353 | test MSE = 0.209016 | training dt loss = 2.168266 | test dt loss = 2.171087 | time = 24.807215 s
+Epoch 56 | training MSE = 0.084157 | test MSE = 0.214700 | training dt loss = 2.168193 | test dt loss = 2.170234 | time = 23.298523 s
+Epoch 57 | training MSE = 0.082414 | test MSE = 0.212608 | training dt loss = 2.168198 | test dt loss = 2.170934 | time = 23.071761 s
+Epoch 58 | training MSE = 0.081189 | test MSE = 0.218363 | training dt loss = 2.168227 | test dt loss = 2.170398 | time = 23.722667 s
+Epoch 59 | training MSE = 0.080794 | test MSE = 0.193484 | training dt loss = 2.168804 | test dt loss = 2.171079 | time = 24.029654 s
+Epoch 60 | training MSE = 0.078794 | test MSE = 0.209657 | training dt loss = 2.168544 | test dt loss = 2.170881 | time = 21.741775 s
+Epoch 61 | training MSE = 0.078464 | test MSE = 0.225820 | training dt loss = 2.168458 | test dt loss = 2.170778 | time = 23.485199 s
+Epoch 62 | training MSE = 0.079763 | test MSE = 0.260282 | training dt loss = 2.168460 | test dt loss = 2.170843 | time = 22.067998 s
+Epoch 63 | training MSE = 0.081885 | test MSE = 0.241073 | training dt loss = 2.168418 | test dt loss = 2.170679 | time = 22.164659 s
+Epoch 64 | training MSE = 0.081587 | test MSE = 0.203923 | training dt loss = 2.168498 | test dt loss = 2.170352 | time = 22.125067 s
+Epoch 65 | training MSE = 0.079382 | test MSE = 0.202694 | training dt loss = 2.168667 | test dt loss = 2.170601 | time = 21.783177 s
+Epoch 66 | training MSE = 0.076625 | test MSE = 0.178821 | training dt loss = 2.168540 | test dt loss = 2.171044 | time = 22.069782 s
+Epoch 67 | training MSE = 0.075768 | test MSE = 0.212173 | training dt loss = 2.168345 | test dt loss = 2.171128 | time = 23.691239 s
+Epoch 68 | training MSE = 0.075635 | test MSE = 0.189921 | training dt loss = 2.168311 | test dt loss = 2.170780 | time = 22.392629 s
+Epoch 69 | training MSE = 0.074650 | test MSE = 0.229718 | training dt loss = 2.168665 | test dt loss = 2.170693 | time = 23.689167 s
+Epoch 70 | training MSE = 0.075862 | test MSE = 0.184246 | training dt loss = 2.168824 | test dt loss = 2.170905 | time = 22.886914 s
+Epoch 71 | training MSE = 0.074801 | test MSE = 0.256206 | training dt loss = 2.168795 | test dt loss = 2.170715 | time = 22.675145 s
+Epoch 72 | training MSE = 0.083360 | test MSE = 0.195166 | training dt loss = 2.168547 | test dt loss = 2.170759 | time = 24.438749 s
+Epoch 73 | training MSE = 0.076981 | test MSE = 0.186380 | training dt loss = 2.168443 | test dt loss = 2.171061 | time = 22.988147 s
+Epoch 74 | training MSE = 0.072525 | test MSE = 0.202712 | training dt loss = 2.168854 | test dt loss = 2.170796 | time = 22.768530 s
+Epoch 75 | training MSE = 0.073418 | test MSE = 0.182222 | training dt loss = 2.168507 | test dt loss = 2.170744 | time = 23.404164 s
+Epoch 76 | training MSE = 0.073541 | test MSE = 0.168246 | training dt loss = 2.168266 | test dt loss = 2.170931 | time = 22.638710 s
+Epoch 77 | training MSE = 0.072090 | test MSE = 0.180025 | training dt loss = 2.168381 | test dt loss = 2.170499 | time = 22.890348 s
+Epoch 78 | training MSE = 0.070988 | test MSE = 0.196836 | training dt loss = 2.168628 | test dt loss = 2.170402 | time = 22.914877 s
+Epoch 79 | training MSE = 0.072818 | test MSE = 0.201296 | training dt loss = 2.168816 | test dt loss = 2.170819 | time = 22.744553 s
+Epoch 80 | training MSE = 0.072845 | test MSE = 0.221007 | training dt loss = 2.168446 | test dt loss = 2.170870 | time = 24.044901 s
+Epoch 81 | training MSE = 0.073283 | test MSE = 0.191247 | training dt loss = 2.168786 | test dt loss = 2.170736 | time = 22.959176 s
+Epoch 82 | training MSE = 0.072740 | test MSE = 0.187591 | training dt loss = 2.168807 | test dt loss = 2.170945 | time = 24.465748 s
+Epoch 83 | training MSE = 0.071184 | test MSE = 0.188164 | training dt loss = 2.168873 | test dt loss = 2.170960 | time = 22.805978 s
+Epoch 84 | training MSE = 0.071296 | test MSE = 0.206461 | training dt loss = 2.168585 | test dt loss = 2.170571 | time = 23.020159 s
+Epoch 85 | training MSE = 0.071120 | test MSE = 0.180541 | training dt loss = 2.168689 | test dt loss = 2.170568 | time = 23.054242 s
+Epoch 86 | training MSE = 0.071659 | test MSE = 0.232957 | training dt loss = 2.168503 | test dt loss = 2.170771 | time = 23.078895 s
+Epoch 87 | training MSE = 0.072162 | test MSE = 0.197579 | training dt loss = 2.168944 | test dt loss = 2.170878 | time = 23.030594 s
+Epoch 88 | training MSE = 0.070559 | test MSE = 0.183995 | training dt loss = 2.169135 | test dt loss = 2.170767 | time = 23.155679 s
+Epoch 89 | training MSE = 0.069472 | test MSE = 0.197814 | training dt loss = 2.168876 | test dt loss = 2.170769 | time = 23.140251 s
+Epoch 90 | training MSE = 0.069403 | test MSE = 0.184341 | training dt loss = 2.168821 | test dt loss = 2.170690 | time = 24.405387 s
+Epoch 91 | training MSE = 0.070351 | test MSE = 0.183374 | training dt loss = 2.168739 | test dt loss = 2.170835 | time = 23.044224 s
+Finish training model, best test MSE: 0.168246
+********** MBMF rollout **********
+Episode 16 | total env steps = 16000 | env steps = 1000 | reward = -113.792442
+Episode 17 | total env steps = 17000 | env steps = 1000 | reward = -258.356781
+Episode 18 | total env steps = 18000 | env steps = 1000 | reward = -278.426270
+Episode 19 | total env steps = 19000 | env steps = 1000 | reward = -243.228470
